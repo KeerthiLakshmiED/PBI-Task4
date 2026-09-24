@@ -147,26 +147,33 @@ This allows the dashboard to show total/aggregated trading activity.
 The dashboard combines the measures to provide several levels of
 analysis:
 
-                    📊 STOCK DATA
-                         │
-                         ▼
-                 ShopifyStock
-                         │
-             ┌───────────┴───────────┐
-             ▼                       ▼
-        Close Price               Volume
-             │                       │
-       ┌─────┴─────┐                 │
-       ▼           ▼                 ▼
-   20-Day MA    50-Day MA       Total Volume
-       │           │
-       └─────┬─────┘
-             ▼
-       Trend Analysis
-             │
-      ┌──────┴──────┐
-      ▼             ▼
- Latest Close   High / Low
+                                             📊 STOCK DATA
+                              │
+                              ▼
+                      ┌────────────────┐
+                      │  📦 ShopifyStock │
+                      └────────┬───────┘
+                               │
+                 ┌─────────────┴─────────────┐
+                 ▼                           ▼
+          ┌──────────────┐             ┌──────────────┐
+          │ 💰 Close Price│             │ 📦 Volume    │
+          └───────┬──────┘             └───────┬──────┘
+                  │                             │
+          ┌───────┴────────┐                    ▼
+          ▼                ▼             ┌──────────────┐
+   📉 20-Day MA      📉 50-Day MA       │ 📊 Total Volume│
+          │                │             └───────┬──────┘
+          └───────┬────────┘                     │
+                  ▼                              │
+          ┌─────────────────┐                    │
+          │ 📈 Trend Analysis│◄──────────────────┘
+          └────────┬────────┘
+                   │
+          ┌────────┼────────┐
+          ▼        ▼        ▼
+       💰 Latest  🔺 Highest 🔻 Lowest
+          Close      Price     Price
 
  
 
