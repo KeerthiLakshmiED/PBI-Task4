@@ -21,6 +21,8 @@ The dashboard focuses on:
 🔺 Highest Price
 
 📅 Interactive Date filtering
+
+
 <img width="383" height="209" alt="Screenshot 2026-09-24 210602" src="https://github.com/user-attachments/assets/fe3b0c66-4aeb-4936-bb59-4abc7b310cc3" />
 
 The report contains a single dashboard page with cards, charts, and a
@@ -165,6 +167,8 @@ analysis:
       ┌──────┴──────┐
       ▼             ▼
  Latest Close   High / Low
+
+ 
 
 🎛️ Date Filtering
 
