@@ -1,4 +1,4 @@
-📊 Power BI Stock Market Dashboard
+📊 Power BI Shopify Sales Dashboard
 
 🧾 Project Overview
 
