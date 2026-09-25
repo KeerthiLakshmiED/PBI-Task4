@@ -1,4 +1,4 @@
-
+📊 Power BI Stock Market Dashboard
 🧾 Project Overview
 
 This Power BI project presents an interactive stock market analysis
@@ -22,8 +22,8 @@ The dashboard focuses on:
 
 📅 Interactive Date filtering
 
+<img width="416" height="262" alt="Screenshot 2026-09-25 145323" src="https://github.com/user-attachments/assets/02816e6e-a610-40d8-b3e3-ac4f0c91ea7b" />
 
-<img width="383" height="209" alt="Screenshot 2026-09-24 210602" src="https://github.com/user-attachments/assets/fe3b0c66-4aeb-4936-bb59-4abc7b310cc3" />
 
 The report contains a single dashboard page with cards, charts, and a
 date slicer.
